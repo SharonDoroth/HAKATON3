@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Sign Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="quiz-container">
+    <div id="quiz-content">
+        <h1>Zodiac Sign Quiz</h1>
+        <div id="question"></div>
+        <button class="answer-btn" onclick="nextQuestion(1)"></button>
+        <button class="answer-btn" onclick="nextQuestion(2)"></button>
+        <button class="answer-btn" onclick="nextQuestion(3)"></button>
+        <button class="answer-btn" onclick="nextQuestion(4)"></button>
+        <div id="result"></div>
+    </div>
+    <div id="user-responses">
+        <h2>Your Responses</h2>
+        <ul id="response-list"></ul>
+    </div>
+</div>
+    <div id="funny-gif-container">
+        <img id="funny-gif" src="giphy.gif" alt="Funny GIF">
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
